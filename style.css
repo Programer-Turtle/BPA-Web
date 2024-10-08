@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Creepster);
+
+body{
+    background-color: rgb(67, 59, 70);
+}
+
+h1{
+    font-family: 'Creepster';
+    font-size: 80px;
+}
+
+
+p{
+    font-family: 'Creepster';
+    /* Yellow */
+    color: rgb(243, 242, 198);
+    /* grey */
+    color: rgb(202, 45, 119);
+    /* pink */
+    color: rgb(96, 99, 99);
+}
