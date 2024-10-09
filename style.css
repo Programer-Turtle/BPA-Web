@@ -7,15 +7,12 @@ body{
 h1{
     font-family: 'Creepster';
     font-size: 80px;
+    display: none;
 }
 
 
 p{
     font-family: 'Creepster';
-    /* Yellow */
-    color: rgb(243, 242, 198);
-    /* grey */
-    color: rgb(202, 45, 119);
-    /* pink */
-    color: rgb(96, 99, 99);
+    font-size: 40px;
+    display: none;
 }

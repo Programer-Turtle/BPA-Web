@@ -1,22 +1,34 @@
-function ChangeTextColor(){
-    let textObject = document.getElementById("Color")
-    let colors = ["rgb(243, 242, 198)", "rgb(202, 45, 119)", "rgb(96, 99, 99)"]
-    let TextinnerHtml = textObject.innerHTML
+function ChangeTextCode(Text){
+    // let colors = ["rgb(243, 242, 198)", "rgb(202, 45, 119)", "rgb(96, 99, 99)"]
+    let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
     let FinalHTML = ""
-    console.log("test")
     let counter = 0
-    for(let char = 0; char<TextinnerHtml.length; char++){
-        let currentCharacter = TextinnerHtml[char]
-        console.log(currentCharacter)
-        if(!currentCharacter == ""){
+    for(let char = 0; char<Text.length; char++){
+        let currentCharacter = Text[char]
+        if(!(currentCharacter == " ")){
             FinalHTML += `<span style="color:${colors[counter]};">${currentCharacter}</span>`
             counter++
         }
-        if(counter>2){
+        else{
+            FinalHTML += currentCharacter
+        }
+        if(counter>colors.length-1){
             counter = 0
         }
     }
-    //Sets HTML to new code
-    console.log(FinalHTML)
-    textObject.innerHTML = FinalHTML
+    return FinalHTML
+}
+
+function ChangeTextColor(){
+    let textObjectsList = document.querySelectorAll("[id='Color']")
+    for(let objectIndex = 0; objectIndex<textObjectsList.length; objectIndex++){
+        let textObject = textObjectsList[objectIndex]
+        let TextinnerHtml = textObject.innerText
+        //Get Code
+        let FinalHTML = ChangeTextCode(TextinnerHtml)
+
+        //Sets HTML to new code
+        textObject.innerHTML = FinalHTML
+        textObject.style.display = "block"
+    }
 }
