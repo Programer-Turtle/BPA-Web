@@ -6,7 +6,7 @@ function ChangeTextCode(Text){
     for(let char = 0; char<Text.length; char++){
         let currentCharacter = Text[char]
         if(!(currentCharacter == " ")){
-            FinalHTML += `<span style="color:${colors[counter]};">${currentCharacter}</span>`
+            FinalHTML += `<span class="test" style="color:${colors[counter]};">${currentCharacter}</span>`
             counter++
         }
         else{
@@ -20,7 +20,7 @@ function ChangeTextCode(Text){
 }
 
 function ChangeTextColor(){
-    let textObjectsList = document.querySelectorAll("[id='Color']")
+    let textObjectsList = document.querySelectorAll("[class='Color']")
     for(let objectIndex = 0; objectIndex<textObjectsList.length; objectIndex++){
         let textObject = textObjectsList[objectIndex]
         let TextinnerHtml = textObject.innerText
