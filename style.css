@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Creepster);
+
+body{
+    background: linear-gradient(to bottom right, #9e1f76 0%, #000000 100%);
+    background-size: 100vw 100vw;
+}
+
+h1{
+    font-family: 'Creepster';
+    font-size: 80px;
+    display: none;
+}
+
+
+p{
+    font-family: 'Creepster';
+    font-size: 40px;
+    display: none;
+}
+
+.left
+{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:grey;
+}
+
+a{
+    font-size: 25px;
+    font-family: 'Creepster';
+    text-decoration: none;
+    height: 100%;
+}
