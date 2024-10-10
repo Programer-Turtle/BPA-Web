@@ -1,34 +1,17 @@
-function ChangeTextCode(Text){
-    // let colors = ["rgb(243, 242, 198)", "rgb(202, 45, 119)", "rgb(96, 99, 99)"]
-    let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
-    let FinalHTML = ""
-    let counter = 0
-    for(let char = 0; char<Text.length; char++){
-        let currentCharacter = Text[char]
-        if(!(currentCharacter == " ")){
-            FinalHTML += `<span class="test" style="color:${colors[counter]};">${currentCharacter}</span>`
-            counter++
-        }
-        else{
-            FinalHTML += currentCharacter
-        }
-        if(counter>colors.length-1){
-            counter = 0
-        }
-    }
-    return FinalHTML
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Band</title>
+</head>
+<body id="body">
+    <h1 id="Hello" class="Color" style="text-align: center;">This text has colors!</h1>
+    <h1 class="Color" style="text-align: center;">This one does to</h1>
+    <p class="Color" style="text-align: center;"> So do symbols!?/.,</p>
 
-function ChangeTextColor(){
-    let textObjectsList = document.querySelectorAll("[class='Color']")
-    for(let objectIndex = 0; objectIndex<textObjectsList.length; objectIndex++){
-        let textObject = textObjectsList[objectIndex]
-        let TextinnerHtml = textObject.innerText
-        //Get Code
-        let FinalHTML = ChangeTextCode(TextinnerHtml)
-
-        //Sets HTML to new code
-        textObject.innerHTML = FinalHTML
-        textObject.style.display = "block"
-    }
-}
+    <script src="scripts/TextColorHandler.js"></script>
+    <script>ChangeTextColor()</script>
+</body>
+</html>
