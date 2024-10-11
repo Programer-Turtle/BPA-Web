@@ -2,7 +2,7 @@
 
 body{
     background: linear-gradient(to bottom right, #9e1f76 0%, #000000 100%);
-    background-size: 100vw 100vw;
+    background-size: 100vw 100vh;
 }
 
 h1{
@@ -38,5 +38,12 @@ a{
     font-size: 25px;
     font-family: 'Creepster';
     text-decoration: none;
+    margin-top: 5px;
+    margin-right: 60px;
     height: 100%;
+    transition: 0.5s;
+}
+
+a:hover{
+    transform: translateY(-6px) scale(110%);
 }

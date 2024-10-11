@@ -1,0 +1,3 @@
+index.html About Page
+merch.html THE SWAG PAGE
+dates.html Tour Dates
