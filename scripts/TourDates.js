@@ -25,3 +25,15 @@ let Tours = [
         "Cities":[]
     }
 ]
+
+let HoldBox = document.getElementById("HoldBox")
+
+for(let TourIndex=0; TourIndex<Tours.length; TourIndex++){
+    let TourBox = document.createElement("div")
+    let CurrentTourName = Tours[TourIndex]["Name"]
+    TourBox.className = "TourBox"
+    TourBox.id = "TourBox"
+    TourBox.innerHTML = `<div id="TourBox" class="TourBox"><h1>${CurrentTourName}</h1></div>`
+    HoldBox.appendChild(TourBox)
+}
+

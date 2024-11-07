@@ -31,3 +31,5 @@ function ChangeTextColor(){
         textObject.style.display = "block"
     }
 }
+
+ChangeTextColor()
