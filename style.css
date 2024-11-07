@@ -2,13 +2,14 @@
 
 body{
     background: linear-gradient(to bottom right, #9e1f76 0%, #000000 100%);
-    background-size: 100vw 100vh;
+    background-size: 100vw 100%;
     margin: 0;
 }
 
 h1{
     font-family: 'Creepster';
     font-size: 80px;
+    color: whitesmoke;
 }
 
 
@@ -16,6 +17,7 @@ p{
     font-family: 'Creepster';
     font-size: 40px;
     margin-right: 10px;
+    color: whitesmoke;
 }
 
 p.Color {
@@ -45,6 +47,11 @@ img.round{
     margin-left: auto;
     margin-right: auto;
     align-content: center;
+    transition: 1s;
+}
+
+img.round:hover{
+    transform:scale(120%);
 }
 
 .left
@@ -85,7 +92,7 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     padding: 0%;
-    background-color: #5e5e5e;
+    background-color: #c392ba;
     border-radius: 50px;
 }
 

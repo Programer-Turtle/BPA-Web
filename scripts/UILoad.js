@@ -1,7 +1,7 @@
 //<a style="padding: 0; margin: 0; margin-top: 5px; margin-left: 10px; margin-right: 40px;"href="index.html"><img style="padding: 0; margin: 0;" width="80px" src="https://programer-turtle.github.io/WeatherSystem/Images/Logo.PNG" alt="Logo"></a><a style="font-size: 60px;" href="Search.html"><span class="Color">Swag</span></a>
 
 async function LoadNavBar(){
-    let NavBarCode = `<a style="padding: 0; margin: 0; margin-top: 5px; margin-left: 10px; margin-right: 40px;"href="index.html"><img style="padding: 0; margin: 0;" width="80px" src="https://programer-turtle.github.io/WeatherSystem/Images/Logo.PNG" alt="Logo"></a><a style="font-size: 60px;" href="swag.html"><span class="Color">Swag</span></a><a style="font-size: 60px;" href="dates.html"><span class="Color">Tour Dates</span></a><a style="font-size: 60px;" href="contact.html"><span class="Color">Conact Us</span></a>`
+    let NavBarCode = `<a style="padding: 0; margin: 0; margin-top: 5px; margin-left: 10px; margin-right: 40px;"href="index.html"><img style="padding: 0; margin: 0;" width="80px" src="https://programer-turtle.github.io/WeatherSystem/Images/Logo.PNG" alt="Logo"></a><a style="font-size: 60px;" href="swag.html"><span class="Color">Swag</span></a><a style="font-size: 60px;" href="dates.html"><span class="Color">Tour Dates</span></a><a style="font-size: 60px;" href="contact.html"><span class="Color">Contact Us</span></a>`
     try{
         document.getElementById("NavBar").innerHTML = NavBarCode
         return true
