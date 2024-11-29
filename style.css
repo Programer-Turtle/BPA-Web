@@ -13,6 +13,18 @@ h1{
     color: whitesmoke;
 }
 
+h2{
+    font-family: 'Creepster';
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+h3{
+    font-family: 'Creepster';
+    font-size: 50px;
+    color: whitesmoke;
+}
+
 
 p{
     font-family: 'Creepster';
@@ -110,10 +122,40 @@ a:hover{
     1px 1px 0 #000000;
 }
 
+.TourBox h2{
+    font-size: 40px;
+    margin: 0%;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0 #000000,
+    -1px 1px 0 #000000
+    1px -1px 0 #000000
+    1px 1px 0 #000000;
+}
+
+.TourBox h3{
+    font-size: 30px;
+    margin: 0%;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0 #000000,
+    -1px 1px 0 #000000
+    1px -1px 0 #000000
+    1px 1px 0 #000000;
+}
+
 .TourBox p{
     margin: 0%;
     margin-top: 5px;
     text-align: center;
+}
+
+p a{
+    margin: 0%;
+    font-size: 40px;
+    margin-top: 5px;
 }
 
 .DontBig:hover{
