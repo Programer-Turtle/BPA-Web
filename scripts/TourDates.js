@@ -22,7 +22,14 @@ let Tours = [
         'Name':"Out of Pills",
         'Dates':"October 5 - November 2, 2025",
         'Location':"Canada",
-        "Cities":[]
+        "Cities":[
+            "Toronto, Ontario, October 5",
+            "Mayo, Yukon, October 13",
+            "Zama City, Alberta, October 16",
+            "Fort Ware, British Columbia, 23",
+            "Labrador City, Quebc, October 27",
+            "Thompson, Manitoba, October 30"
+        ]
     }
 ]
 
