@@ -11,18 +11,21 @@ h1{
     font-family: 'Creepster';
     font-size: 80px;
     color: whitesmoke;
+    text-shadow: -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black, 5px 5px 0 black;
 }
 
 h2{
     font-family: 'Creepster';
     font-size: 60px;
     color: whitesmoke;
+    text-shadow: -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black, 5px 5px 0 black;
 }
 
 h3{
     font-family: 'Creepster';
     font-size: 50px;
     color: whitesmoke;
+    text-shadow: -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black, 5px 5px 0 black;
 }
 
 
@@ -31,6 +34,7 @@ p{
     font-size: 40px;
     margin-right: 10px;
     color: whitesmoke;
+    text-shadow: -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black, 5px 5px 0 black;
 }
 
 p.Color {
@@ -64,7 +68,7 @@ img.round{
 }
 
 img.round:hover{
-    transform:scale(120%) rotate(360deg);
+    transform:scale(115%) rotate(360deg);
 }
 
 .left
@@ -88,6 +92,7 @@ img.round:hover{
 a{
     font-size: 25px;
     font-family: 'Creepster';
+    text-shadow: -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black, 5px 5px 0 black;
     text-decoration: none;
     margin-top: 5px;
     margin-right: 60px;
@@ -115,11 +120,6 @@ a:hover{
     margin: 0%;
     margin-top: 5px;
     text-align: center;
-    text-shadow: 
-    -1px -1px 0 #000000,
-    -1px 1px 0 #000000
-    1px -1px 0 #000000
-    1px 1px 0 #000000;
 }
 
 .TourBox h2{
@@ -127,11 +127,6 @@ a:hover{
     margin: 0%;
     margin-top: 5px;
     text-align: center;
-    text-shadow: 
-    -1px -1px 0 #000000,
-    -1px 1px 0 #000000
-    1px -1px 0 #000000
-    1px 1px 0 #000000;
 }
 
 .TourBox h3{
@@ -139,11 +134,6 @@ a:hover{
     margin: 0%;
     margin-top: 5px;
     text-align: center;
-    text-shadow: 
-    -1px -1px 0 #000000,
-    -1px 1px 0 #000000
-    1px -1px 0 #000000
-    1px 1px 0 #000000;
 }
 
 .TourBox p{
