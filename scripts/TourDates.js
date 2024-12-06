@@ -3,7 +3,13 @@ let Tours = [
         'Name':"On Strike",
         'Dates':"November 22 - December 10, 2024",
         'Location':"Europe",
-        'Cities':["Amsterdam, Netherlands, November 22", "Berlin, Germany, November 26", "Munich, Germany, November 30", "Madrid, Spain, December 6", "Rome, Italy, December 10"]
+        'Cities':[
+            "Amsterdam, Netherlands, November 22", 
+            "Berlin, Germany, November 26", 
+            "Munich, Germany, November 30", 
+            "Madrid, Spain, December 6", 
+            "Rome, Italy, December 10"
+        ]
     },
     {
         'Name':"All Around",
@@ -35,6 +41,7 @@ let Tours = [
 
 let HoldBox = document.getElementById("HoldBox")
 
+//Creates a box for every tour
 for(let TourIndex=0; TourIndex<Tours.length; TourIndex++){
     let TourBox = document.createElement("div")
     let CurrentTourName = Tours[TourIndex]["Name"]
